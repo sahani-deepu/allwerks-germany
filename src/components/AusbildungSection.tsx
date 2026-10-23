@@ -90,7 +90,7 @@ export default function AusbildungSection({ onOpenConsultation }: AusbildungSect
             <GraduationCap className="w-3.5 h-3.5" />
             <span>Germany&apos;s Dual Vocational System (Duale Ausbildung)</span>
           </div>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-950 tracking-tight">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 tracking-tight">
             How Indian Students Study In Germany Without College Debt
           </h2>
           <p className="mt-4 text-base sm:text-lg text-slate-600 leading-relaxed">

@@ -76,7 +76,7 @@ export default function PostLandingSection() {
             <Building2 className="w-4 h-4 text-emerald-600" />
             <span>The Allwerks On-Ground Reality</span>
           </div>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-950 tracking-tight">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 tracking-tight">
             Support That Doesn&apos;t Stop When Your Plane Lands
           </h2>
           <p className="mt-4 text-base sm:text-lg text-slate-600 leading-relaxed">

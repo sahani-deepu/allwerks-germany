@@ -43,8 +43,8 @@ export default function FAQSection() {
             <HelpCircle className="w-4 h-4 text-blue-600" />
             <span>Frequently Asked Questions</span>
           </div>
-          <h2 className="text-3xl sm:text-4xl font-black text-slate-950 tracking-tight">
-            Everything You Need To Know
+          <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 tracking-tight">
+            Frequently Asked Questions
           </h2>
           <p className="mt-3 text-base text-slate-600">
             Clear, honest answers about German immigration rules, costs, and timelines.

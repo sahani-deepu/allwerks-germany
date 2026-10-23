@@ -62,11 +62,11 @@ export default function PointsCalculator({ onOpenConsultation }: PointsCalculato
             <Calculator className="w-3.5 h-3.5" />
             <span>Official Chancenkarte Assessment (Route 2)</span>
           </div>
-          <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight">
+          <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-white">
             Check If You Meet The 6-Point Threshold
           </h2>
-          <p className="mt-3 text-base text-slate-300">
-            Select your real credentials below. Germany requires a minimum of <strong className="text-amber-400">6 points</strong> for the Opportunity Card job search visa.
+          <p className="mt-2.5 text-xs sm:text-sm text-slate-300">
+            Select your real credentials below. Germany requires a minimum of <strong className="text-amber-400 font-semibold">6 points</strong> for the Opportunity Card job search visa.
           </p>
         </div>
 

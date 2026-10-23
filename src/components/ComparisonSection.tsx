@@ -70,7 +70,7 @@ export default function ComparisonSection({ onOpenConsultation }: ComparisonSect
             <ShieldCheck className="w-4 h-4 text-blue-900" />
             <span>Honest Side-by-Side Comparison</span>
           </div>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-950 tracking-tight">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 tracking-tight">
             How Allwerks Differs From Traditional Agents
           </h2>
           <p className="mt-4 text-base sm:text-lg text-slate-600">

@@ -97,7 +97,7 @@ export default function RoadmapSection() {
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-200 text-slate-800 text-xs font-bold uppercase tracking-wider mb-4">
             <span>A Seamless Continuous Journey</span>
           </div>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-950 tracking-tight">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 tracking-tight">
             The 13 Stages: From India To Germany
           </h2>
           <p className="mt-4 text-base sm:text-lg text-slate-600 leading-relaxed">
