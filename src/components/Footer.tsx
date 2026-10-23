@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Phone, Mail, MapPin, ShieldCheck, Heart } from "lucide-react";
+import { Phone, Mail, MapPin, ShieldCheck, Clock, Building } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -12,7 +12,7 @@ export default function Footer() {
           {/* Brand Info (4 Cols) */}
           <div className="lg:col-span-4 space-y-4">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-xl bg-blue-600 flex items-center justify-center text-white font-black text-lg relative overflow-hidden">
+              <div className="w-10 h-10 rounded-xl bg-slate-900 border border-slate-700 flex items-center justify-center text-white font-black text-lg relative overflow-hidden">
                 <span>AW</span>
                 <div className="absolute bottom-0 inset-x-0 h-1 flex">
                   <div className="w-1/3 bg-black"></div>
@@ -22,13 +22,21 @@ export default function Footer() {
               </div>
               <span className="text-xl font-black text-white tracking-wider">ALLWERKS</span>
             </div>
+            
             <p className="text-xs text-slate-400 leading-relaxed max-w-sm">
-              Your trusted partner for Ausbildung vocational training and the Germany Opportunity Card (Chancenkarte). Comprehensive support from India to your first day at work in Germany.
+              Your trusted partner for Ausbildung vocational education and the Germany Opportunity Card (Chancenkarte). Complete continuity from India to your first day at work in Germany.
             </p>
-            <div className="pt-2 text-xs text-slate-300 space-y-1.5">
+
+            <div className="pt-2 text-xs text-slate-300 space-y-2">
+              <div className="flex items-start gap-2">
+                <MapPin className="w-4 h-4 text-amber-400 shrink-0 mt-0.5" />
+                <span>
+                  <strong>Offices:</strong> New Delhi, India &bull; Frankfurt am Main, Germany
+                </span>
+              </div>
               <div className="flex items-center gap-2">
-                <MapPin className="w-4 h-4 text-amber-400 shrink-0" />
-                <span>New Delhi, India &bull; Frankfurt / Berlin, Germany</span>
+                <Clock className="w-4 h-4 text-blue-400 shrink-0" />
+                <span>Monday – Saturday: 9:30 AM – 6:30 PM IST</span>
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-emerald-400 shrink-0" />
@@ -36,9 +44,9 @@ export default function Footer() {
                   href="https://wa.me/919810430795"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-white hover:text-amber-400 transition-colors"
+                  className="text-white hover:text-amber-400 transition-colors font-semibold"
                 >
-                  +91 98104 30795 (Phone / WhatsApp)
+                  +91 98104 30795 (Call & WhatsApp)
                 </a>
               </div>
             </div>
@@ -52,27 +60,27 @@ export default function Footer() {
             <ul className="space-y-2 text-xs">
               <li>
                 <a href="#ausbildung" className="hover:text-white transition-colors">
-                  Nursing & Healthcare Training (€1,150 - €1,380)
+                  Nursing & Healthcare (€1,190 – €1,380)
                 </a>
               </li>
               <li>
                 <a href="#ausbildung" className="hover:text-white transition-colors">
-                  IT & Application Development
+                  IT & Application Development (Fachinformatiker)
                 </a>
               </li>
               <li>
                 <a href="#ausbildung" className="hover:text-white transition-colors">
-                  Mechatronics & Industrial Engineering
+                  Mechatronics & Robotics (Stuttgart / Munich)
                 </a>
               </li>
               <li>
                 <a href="#ausbildung" className="hover:text-white transition-colors">
-                  Hotel & Hospitality Management
+                  Hotel Operations & Hospitality Management
                 </a>
               </li>
               <li>
                 <a href="#ausbildung" className="hover:text-white transition-colors">
-                  Logistics & Supply Chain
+                  Logistics & International Freight Systems
                 </a>
               </li>
             </ul>
@@ -86,27 +94,27 @@ export default function Footer() {
             <ul className="space-y-2 text-xs">
               <li>
                 <a href="#calculator" className="hover:text-white transition-colors text-amber-400 font-semibold">
-                  6-Point Eligibility Calculator
+                  6-Point Assessment Tool
                 </a>
               </li>
               <li>
                 <a href="#opportunity-card" className="hover:text-white transition-colors">
-                  Route 1: Direct Skilled Worker
+                  Route 1: Direct Recognition
                 </a>
               </li>
               <li>
                 <a href="#opportunity-card" className="hover:text-white transition-colors">
-                  Route 2: Points-Based System
+                  Route 2: Points-Based Qualification
                 </a>
               </li>
               <li>
                 <a href="#pricing" className="hover:text-white transition-colors">
-                  100% Refund Protection Terms
+                  100% Written Refund Policy
                 </a>
               </li>
               <li>
-                <a href="#process" className="hover:text-white transition-colors">
-                  Post-Landing Anmeldung & Steuer-ID
+                <a href="#onboarding" className="hover:text-white transition-colors">
+                  First 14 Days Post-Landing in Germany
                 </a>
               </li>
             </ul>
@@ -115,7 +123,7 @@ export default function Footer() {
           {/* Trust Guarantees (2 Cols) */}
           <div className="lg:col-span-2 space-y-3">
             <h4 className="text-sm font-bold text-white uppercase tracking-wider">
-              Guarantees
+              Protections
             </h4>
             <div className="space-y-2 text-xs text-slate-400">
               <div className="p-3 rounded-xl bg-slate-900 border border-slate-800">
@@ -126,7 +134,7 @@ export default function Footer() {
               </div>
               <div className="p-3 rounded-xl bg-slate-900 border border-slate-800">
                 <div className="text-amber-400 font-bold mb-1">0% Broker Fee</div>
-                <span>Apartment search assistance with zero broker commission.</span>
+                <span>Apartment sourcing with zero broker commission.</span>
               </div>
             </div>
           </div>
@@ -134,7 +142,7 @@ export default function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="mt-12 pt-8 border-t border-slate-800/80 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
+        <div className="mt-12 pt-8 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
           <div>
             &copy; 2026 ALLWERKS. All rights reserved.
           </div>
